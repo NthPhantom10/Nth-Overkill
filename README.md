@@ -18,9 +18,7 @@ let me know about any bugs or complaints on this Repo.
 The best way to get results is to train the model for the game you're playing, but if you don't know how to do that, then you can also tweak the settings to work for the game you're currently playing. The universal settings will work for most applications, but it works best when you customize it for the game you're using it on.
 
 # Controls
-```Num1 to toggle aimbot
-```
-```Num2 to toggle aim-only mode
-```
+```Num1 to toggle aimbot```
+```Num2 to toggle aim-only mode```
 
 # Thats pretty much it! (for now)
