@@ -9,7 +9,7 @@ To use this program, you must have vscode or some other code editor, python 3.12
 ```bash
 pip install opencv-python torch numpy pygame keyboard pywin32 mss pynput
 ```
-Drag the extracted Nth-Overkill folder inside your workspace. Once you do that, you are pretty much good to go! Just run the script and a options.json file should appear in the folder with the script. There are many options in there with descriptions, although make sure to restart the program when you change a setting.
+Drag the extracted Nth-Overkill folder inside your workspace. Once you do that, you are pretty much good to go! Just run the script and a options.json file should appear in the folder with the script (if it is not there already). There are many options in there with descriptions, although make sure to restart the program when you change a setting.
 
 # Suggestions/Help
 1. Make sure to use smaller guns with unobstructive sights for best results, as the YOLOv5 model works best when it can see the full body, on a similar note, make sure the people/creatures you're fighing are vaguely humanoid.
