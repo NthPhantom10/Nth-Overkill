@@ -13,7 +13,7 @@ Make a new folder, name it whatever you want. Go to this folder in your code edi
 
 # Suggestions/Help
 1. Make sure to use smaller guns with unobstructive sights for best results, as the YOLOv5 model works best when it can see the full body, on a similar note, make sure the people/creatures you're fighing are vaguely humanoid.
-2. The movment prediction setting is in very early stages, so i would not reccomend it for regular gameplay.
+2. The movment prediction setting is in very early stages, so i would not recommend it for regular gameplay.
 3. let me know about any bugs or complaints on this Repo.
 4. The best way to get results is to train the model for the game you're playing, but if you don't know how to do that, then you can also tweak the settings to work for the game you're currently playing. The universal settings will work for most 
    applications, but it works best when you customize it for the game you're using it on.
