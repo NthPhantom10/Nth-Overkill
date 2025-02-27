@@ -1,5 +1,5 @@
 # Nth-Overkill
-A free, open-source external universal aimbot developed and maintained in python.
+A free, open-source external universal aimbot developed and maintained in python that also happens to be my first project.
 
 # How It Works
 Nth-Overkill is an Simple external aimbot designed for FPS games, built using computer vision and low-level Windows API calls. Leveraging the YOLOv5 object detection model (yolov5n), it captures the screen in real-time, detects players within a configurable radius, and moves the mouse to aim at them (which is what an aimbot does).
