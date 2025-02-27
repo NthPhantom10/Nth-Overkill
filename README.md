@@ -21,7 +21,4 @@ The best way to get results is to train the model for the game you're playing, b
 Num1 to toggle aimbot
 Num2 to toggle aim-only mode
 
-
-
-
-                                                                                                  Thats pretty much it! (for now)
+# Thats pretty much it! (for now)
