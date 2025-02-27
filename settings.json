@@ -1,0 +1,148 @@
+{
+    "detection": {
+        "model": {
+            "value": "yolov5n",
+            "description": "YOLOv5 model variant to use (e.g., yolov5n, yolov5s, yolov5m, yolov5l, yolov5x)"
+        },
+        "min_confidence": {
+            "value": 0.5,
+            "description": "Minimum confidence score for a detection to be considered valid (0.0 to 1.0)"
+        },
+        "resize_width": {
+            "value": 640,
+            "description": "Width to resize screen capture for detection (smaller = faster, less accurate)"
+        },
+        "resize_height": {
+            "value": 480,
+            "description": "Height to resize screen capture for detection (smaller = faster, less accurate)"
+        },
+        "detection_radius": {
+            "value": 300,
+            "description": "Radius (in pixels) around screen center where detections are considered"
+        },
+        "min_box_area": {
+            "value": 1000,
+            "description": "Minimum area (width * height in pixels) of a bounding box to be valid"
+        },
+        "max_aspect_ratio": {
+            "value": 3.0,
+            "description": "Maximum width/height ratio of a bounding box to filter odd shapes (e.g., 3.0 means max 3:1 or 1:3)"
+        }
+    },
+    "aiming": {
+        "smooth_factor": {
+            "value": 0.4,
+            "description": "Fraction of remaining distance to move per frame (0.0 to 1.0, higher = faster)"
+        },
+        "jitter_min": {
+            "value": -2,
+            "description": "Minimum random jitter (in pixels) added to mouse movement for human-like behavior"
+        },
+        "jitter_max": {
+            "value": 2,
+            "description": "Maximum random jitter (in pixels) added to mouse movement"
+        },
+        "max_move_speed": {
+            "value": 40,
+            "description": "Maximum pixels to move per frame (caps movement speed)"
+        },
+        "movement_delay_min": {
+            "value": 0.001,
+            "description": "Minimum delay (seconds) between micro-movements for anti-cheat evasion"
+        },
+        "movement_delay_max": {
+            "value": 0.003,
+            "description": "Maximum delay (seconds) between micro-movements for anti-cheat evasion"
+        },
+        "interpolation_steps": {
+            "value": 10,
+            "description": "Number of steps for smooth mouse movement interpolation per detection (lower = faster)"
+        },
+        "movement_prediction": {
+            "enabled": {
+                "value": false,
+                "description": "{BETA} Enable AI-based movement prediction to track moving targets (True/False)"
+            },
+            "prediction_frames": {
+                "value": 30,
+                "description": "Number of frames to use for predicting opponent movement (higher = smoother but less responsive)"
+            }
+        }
+    },
+    "overlay": {
+        "circle_color": {
+            "value": [
+                255,
+                0,
+                0
+            ],
+            "description": "RGB color of the detection radius circle (e.g., [255, 0, 0] = red)"
+        },
+        "line_color": {
+            "value": [
+                0,
+                255,
+                0
+            ],
+            "description": "RGB color of lines to detected targets (e.g., [0, 255, 0] = green)"
+        },
+        "box_color": {
+            "value": [
+                0,
+                0,
+                255
+            ],
+            "description": "RGB color of bounding boxes around targets (e.g., [0, 0, 255] = blue)"
+        },
+        "text_color": {
+            "value": [
+                255,
+                255,
+                255
+            ],
+            "description": "RGB color of confidence text (e.g., [255, 255, 255] = white)"
+        },
+        "font_size": {
+            "value": 24,
+            "description": "Font size for confidence text display"
+        },
+        "line_width": {
+            "value": 1,
+            "description": "Width (in pixels) of lines and bounding boxes"
+        },
+        "circle_width": {
+            "value": 2,
+            "description": "Width (in pixels) of the detection radius circle"
+        },
+        "overlay_alpha": {
+            "value": 1.0,
+            "description": "Transparency of the overlay (0.0 = fully transparent, 1.0 = fully opaque)"
+        }
+    },
+    "performance": {
+        "target_fps": {
+            "value": 100,
+            "description": "Desired frames per second for the aimbot loop"
+        },
+        "detection_interval": {
+            "value": 1,
+            "description": "Number of frames between detection updates (1 = every frame, higher = less frequent)"
+        }
+    },
+    "controls": {
+        "toggle_aimbot_key": {
+            "value": "num 1",
+            "description": "Key to toggle aimbot on/off (e.g., 'num 1', 'f1', 'space')"
+        },
+        "toggle_aim_only_key": {
+            "value": "num 2",
+            "description": "Key to toggle aim-only mode (requires right-click when enabled)"
+        }
+    },
+    "debug": {
+        "enable_debug": {
+            "value": false,
+            "description": "Enable debug output in the terminal (True/False)"
+        }
+    }
+}
