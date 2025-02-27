@@ -22,4 +22,7 @@ Drag the extracted Nth-Overkill folder inside your workspace. Once you do that, 
 ```Num1 to toggle aimbot```
 ```Num2 to toggle aim-only mode```
 
-# Thats pretty much it! (for now)
+# Notes
+This aimbot is still very early in the development process, so please forgive the bugs/jank you may encounter.
+
+# Anyways, thats pretty much it! (for now)
